@@ -5,3 +5,10 @@ C:\Users\pc\source\repos\Problem2\Problem2\bin\Debug\Problem2.exe
 C:\Users\pc\source\repos\Problem2\Problem2\bin\Debug\Problem2.pdb
 C:\Users\pc\source\repos\Problem2\Problem2\obj\Debug\Problem2.exe
 C:\Users\pc\source\repos\Problem2\Problem2\obj\Debug\Problem2.pdb
+E:\ProblemSolving-main\ProblemSolving-main\Problem2\Problem2\bin\Debug\Problem2.exe.config
+E:\ProblemSolving-main\ProblemSolving-main\Problem2\Problem2\bin\Debug\Problem2.exe
+E:\ProblemSolving-main\ProblemSolving-main\Problem2\Problem2\bin\Debug\Problem2.pdb
+E:\ProblemSolving-main\ProblemSolving-main\Problem2\Problem2\obj\Debug\Problem2.csprojAssemblyReference.cache
+E:\ProblemSolving-main\ProblemSolving-main\Problem2\Problem2\obj\Debug\Problem2.csproj.CoreCompileInputs.cache
+E:\ProblemSolving-main\ProblemSolving-main\Problem2\Problem2\obj\Debug\Problem2.exe
+E:\ProblemSolving-main\ProblemSolving-main\Problem2\Problem2\obj\Debug\Problem2.pdb

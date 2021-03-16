@@ -14,11 +14,12 @@ namespace Task1
             String lineNumbers;
             int intdimension = 5;
             int[,] intmatrix = new int[intdimension, intdimension];
-            int rowsmoves = 0;
+        StartOver: int rowsmoves = 0;
             int columnmoves = 0;
             int Allmoves = 0;
             bool Foundone = false;
-        StartOver:    int i = 0;
+            int oneinline=0;
+            int i = 0;
             int j = 0;
             for ( i = 1; i < intdimension + 1; i++)
             {
@@ -52,7 +53,10 @@ namespace Task1
                             Console.WriteLine("Please use only zero or one, enter the last line only, or press s to start from beginning");
                             j = 0;
                             //i = i - 1;
-
+                            if (oneinline == i - 1 && Foundone)
+                            {
+                                Foundone = false;
+                            }
                             goto StartInside;
                         }
                         //Console.WriteLine("values: " + intmatrix[i - 1, j]);
@@ -62,6 +66,7 @@ namespace Task1
                             {
                                 rowsmoves = Math.Abs(2 - (i - 1));
                                 columnmoves = Math.Abs(2 - j);
+                                oneinline = i - 1;
                                 Foundone = true;
                             }
                             else 
@@ -69,6 +74,10 @@ namespace Task1
                                 Console.WriteLine(" you entered one before, you can press s to start over or enter the last line only");
                                 j = 0;
                                 //i = i - 1;
+                                if (oneinline == i - 1 && Foundone)
+                                {
+                                    Foundone = false;
+                                }
                                 goto StartInside;
                             }
                         }
@@ -80,6 +89,10 @@ namespace Task1
                     j = 0;
                     //i = i - 1;
                     Console.WriteLine("Please use only zero or one, enter the last line only, or press s to start from beginning");
+                    if (oneinline == i - 1 && Foundone)
+                    {
+                        Foundone = false;
+                    }
                     goto StartInside;
                 }
             }
