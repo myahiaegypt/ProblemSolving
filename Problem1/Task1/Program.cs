@@ -13,6 +13,7 @@ namespace Task1
         {
             String strDimension;
             String lineNumbers;
+            //comment
         StartOver: Console.WriteLine("Please enter the matrix dimension, or Enter x to exit: ");
             strDimension= Console.ReadLine();
             int intdimension;
@@ -62,14 +63,15 @@ namespace Task1
 
                                 goto StartInside;
                             }
-                            if (i - 1 == j)
+ /*                           if (i - 1 == j)
                             {
                                 Diagonal1 = Diagonal1 + intmatrix[i - 1, j];
                             }
                             if (i + j == intdimension)
                             {
                                 Diagonal2 = Diagonal2 + intmatrix[i - 1, j];
-                            }
+                            } 
+ */
                         }
                     }
                     catch(Exception e)
