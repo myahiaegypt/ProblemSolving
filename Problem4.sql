@@ -10,7 +10,10 @@ select * from Worker where SALARY between 50000 and 100000
 select department,count(*) WorkerNO from Worker group by department order by WorkerNO desc
 
 /*4- Write SQL query to print details of the Workers who are also Managers. */
-select * from Worker,Title where Title.WORKER_REF_ID=Worker.WORKER_ID and worker_title='Manager'
+select * from Worker inner join 
+Title on Title.WORKER_REF_ID=Worker.WORKER_ID
+left join Bonus on Bonus.WORKER_REF_ID=Worker.WORKER_ID
+where worker_title='Manager'
 
 /*5- Write SQL query to show the second highest salary.*/
 select top 1 FIRST_NAME,LAST_NAME, W.DEPARTMENT,SALARY from   Worker W where salary< 
