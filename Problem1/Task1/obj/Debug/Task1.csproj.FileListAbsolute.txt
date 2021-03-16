@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\Task1Console\Task1\bin\Debug\Task1.exe.config
+C:\Users\pc\source\repos\Task1Console\Task1\bin\Debug\Task1.exe
+C:\Users\pc\source\repos\Task1Console\Task1\bin\Debug\Task1.pdb
+C:\Users\pc\source\repos\Task1Console\Task1\obj\Debug\Task1.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\Task1Console\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Task1Console\Task1\obj\Debug\Task1.exe
+C:\Users\pc\source\repos\Task1Console\Task1\obj\Debug\Task1.pdb
+C:\Users\pc\source\repos\Problem1\Task1\bin\Debug\Task1.exe.config
+C:\Users\pc\source\repos\Problem1\Task1\bin\Debug\Task1.exe
+C:\Users\pc\source\repos\Problem1\Task1\bin\Debug\Task1.pdb
+C:\Users\pc\source\repos\Problem1\Task1\obj\Debug\Task1.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\Problem1\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Problem1\Task1\obj\Debug\Task1.exe
+C:\Users\pc\source\repos\Problem1\Task1\obj\Debug\Task1.pdb
